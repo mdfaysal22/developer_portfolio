@@ -97,4 +97,53 @@
 }
 #dream .hero-content p {
   margin: 0 0 10px 0;
+}
+
+#exprience {
+  background-image: url(../img/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+#exprience .container h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+#exprience .container .card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+#exprience .container .card-container .card {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.51);
+  width: 40vw;
+  box-sizing: content-box;
+  border-width: 0 0 0 8px;
+  border-style: solid;
+  -o-border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+     border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+  border-image-slice: 1;
+}
+#exprience .container .card-container .card .card-content {
+  padding: 1rem;
+}
+#exprience .container .card-container .card .card-content h1 {
+  font-size: 2rem;
+  text-align: left;
+}
+#exprience .container .card-container .card .card-content h4 {
+  color: #ffa500;
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: bold;
+}
+#exprience .container .card-container .card .card-content p {
+  font-size: 0.9rem;
+  padding: 5px 0;
+}
+
+#footer .container h5 {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 100px 0 20px 0;
 }/*# sourceMappingURL=style.css.map */
